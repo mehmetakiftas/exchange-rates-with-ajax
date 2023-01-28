@@ -1,0 +1,41 @@
+.mainDiv {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 360px;
+    width: 360px;
+    border-radius: 10px;
+    margin-top: 15%;
+    margin-right: 10%;
+}
+
+.child {
+    height: 63px;
+    width: 358px;
+    border-radius: 11px;
+    margin: 13px;
+}
+
+input {
+    border: rgba(40, 49, 66, 1) 1px solid !important;
+    background-color: rgba(40, 49, 66, 1);
+    color: rgba(150, 167, 205, 1) !important;
+    width: 120px;
+    height: 30px;
+    margin-top: 0.3%;
+}
+
+input:focus {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    outline: none;
+}
+
+select {
+    border: rgba(40, 49, 66, 1) 1px solid !important;
+    background-color: rgba(40, 49, 66, 1) !important;
+    color: rgba(150, 167, 205, 1) !important;
+    text-align: center;
+}

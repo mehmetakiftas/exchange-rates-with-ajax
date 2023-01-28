@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="main.css" type="text/css" rel="stylesheet" />
+    <title> Exchange Rate </title>
+</head>
+
+<body style="background-color: #12151B;">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+            </div>
+
+
+
+            <div class="col-5 mainDiv" id="mainDiv">
+                <div class="child" id="exchangeDiv"
+                    style="background: rgba(40,49,66,1); text-align: center; color:rgba(79,97,137,1); padding-top: 4%;">
+                    <select class="form-select" id="selectID">
+                        <option value="0">Select</option>
+                        <option value="EUR" id="selectEUR">EUR</option>
+                        <option value="USD" id="selectUSD">USD</option>
+                    </select>
+
+                </div>
+
+
+                <button class="child" id="changeButton"
+                    style="background: rgb(145,68,243); background: linear-gradient(38deg, rgba(145,68,243,1) 0%, rgba(112,0,255,1) 100%);">
+                    Exchange
+                </button>
+
+
+                <div class="child"
+                    style="background: rgba(40,49,66,1); text-align: center; color:rgba(79,97,137,1); padding-top: 4%;">
+                    <img src="./images/turkey.png" style="width: 25px; margin-right: 5%;" alt="turkey">
+                    <input type="text" id="tl" readonly style="margin-right: 5%;"> TRY
+                </div>
+
+
+                <button class="child" id="refreshButton"
+                    style="background: rgb(145,68,243); background: linear-gradient(38deg, rgba(145,68,243,1) 0%, rgba(112,0,255,1) 100%)">
+                    Refresh
+                </button>
+            </div>
+
+
+
+            <div class="col">
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
